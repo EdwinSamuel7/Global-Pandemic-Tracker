@@ -1,4 +1,4 @@
-# Global COVID-19 Tracker: Cases, Death Toll, and Trends by Region
+# Global Pandemic Tracker: Cases, Death Toll, and Trends by Region
 
 ## 📌 Overview
 - This *Tableau* dashboard offers a comprehensive analysis of COVID-19 data that was explored and structured in *SQL*. <br>
