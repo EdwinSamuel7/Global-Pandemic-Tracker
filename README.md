@@ -7,7 +7,7 @@
 
 ## Interactive Dashboard:
 
-**Click the dashboard image above to explore the interactive version on Tableau Public**
+*Click the dashboard image above to explore the interactive version on Tableau Public*
 [![Pandemic Dashboard](https://github.com/edwin-samuel-giftson/My-Projects/blob/main/My%20Projects/Global-Pandemic-Tracker/Pandemic-Tracker-Dashboard.png?raw=true)](https://public.tableau.com/app/profile/edwinsamuel7/viz/Covid-Dashboard_from-sql/Dashboard1)
 ​
 ## Key highlights
