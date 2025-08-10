@@ -67,12 +67,13 @@ WITH roll_vac AS (
 SELECT *, (rolling_vaccinations/population)*100 AS rolling_vaccinations_percent
 FROM roll_vac;
 ```
-
+<--
 ## Tools and Technologies
 - **SQL:** Initially data was explored in SQL and structured into different tables.
 - **Tableau:** Used for data visualization and creating an interactive dashboard.
 - **Data Analysis:** Performed comprehensive data analysis to derive insights and trends from the dataset.
 - **Data Visualization:** Utilized various visualization techniques including line charts, bar charts, tables and geography maps to represent data effectively.
+- ->
 
 ## 🛠 Technical Highlights
 
