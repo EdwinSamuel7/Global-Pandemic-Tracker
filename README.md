@@ -69,8 +69,6 @@ FROM roll_vac;
 ```
 
 ## 🛠 Technical Highlights
-
-## 🛠 Technical Highlights
 - **Complex Joins:** Linked `coviddeaths` and `covidvaccinations` tables
 - **Advanced SQL Features:**
   - Window functions (`OVER PARTITION BY`) for rolling calculations
