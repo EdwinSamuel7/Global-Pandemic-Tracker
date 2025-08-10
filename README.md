@@ -67,26 +67,26 @@ WITH roll_vac AS (
 SELECT *, (rolling_vaccinations/population)*100 AS rolling_vaccinations_percent
 FROM roll_vac;
 ```
-<--
+
+## 🛠 Technical Highlights
+
+## 🛠 Technical Highlights
+- **Complex Joins:** Linked `coviddeaths` and `covidvaccinations` tables
+- **Advanced SQL Features:**
+  - Window functions (`OVER PARTITION BY`) for rolling calculations
+  - Multiple approaches to solve the same problem (CTEs vs. temp tables)
+  - Created reusable database views
+- **Data Quality Checks:** Handled NULL values and excluded aggregate regions
+
+<!--
 ## Tools and Technologies
 - **SQL:** Initially data was explored in SQL and structured into different tables.
 - **Tableau:** Used for data visualization and creating an interactive dashboard.
 - **Data Analysis:** Performed comprehensive data analysis to derive insights and trends from the dataset.
 - **Data Visualization:** Utilized various visualization techniques including line charts, bar charts, tables and geography maps to represent data effectively.
-  ->
-
-## 🛠 Technical Highlights
-
-- **Complex Joins:** Linked coviddeaths and covidvaccinations tables.
-- **Higher SQL Features:**
--- Window functions (OVER PARTITION BY) for rolling calculations
--- Multiple approaches to solve the same problem (CTEs vs. temp tables)
--- Created reusable database views
-- **Data Quality Checks:** Handled NULL values and excluded aggregate regions
-
 
 ## Dashboad:
 
 ![image](https://github.com/edwin-samuel-giftson/My-Projects/blob/main/My%20Projects/Global-Pandemic-Tracker/Pandemic-Tracker-Dashboard.png?raw=true)
 
-
+-->
