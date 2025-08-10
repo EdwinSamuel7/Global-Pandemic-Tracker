@@ -5,8 +5,9 @@
 - The dashboard provides a detailed examination of global cases, mortality statistics, and infection trends over time. <br>
 - The *SQL* analysis done before Tableau focuses on  infection rates, death percentages, vaccination trends, and country-specific insights. The queries demonstrate advanced SQL techniques like **window functions, CTEs, temporary tables, and views**.
 
-## Dashboard:
+## Interactive Dashboard:
 
+**Click the dashboard image above to explore the interactive version on Tableau Public**
 [![Pandemic Dashboard](https://github.com/edwin-samuel-giftson/My-Projects/blob/main/My%20Projects/Global-Pandemic-Tracker/Pandemic-Tracker-Dashboard.png?raw=true)](https://public.tableau.com/app/profile/edwinsamuel7/viz/Covid-Dashboard_from-sql/Dashboard1)
 ​
 ## Key highlights
