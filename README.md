@@ -219,27 +219,6 @@ ORDER BY location, date;
 
 SELECT * FROM RollingVaccinations;
 ```
- 
-
-Demonstrated three methods to calculate rolling vaccination percentages:
-
-- CTEs
-- Temporary Tables
-- Subqueries
-
-##### CTE Approach:
-```sql
--- Using CTE to calculate vaccination progress over time
-WITH roll_vac AS (
-  SELECT dea.location, dea.date, dea.population, vac.new_vaccinations,
-         SUM(CAST(vac.new_vaccinations AS INT)) OVER (PARTITION BY dea.location ORDER BY dea.date) AS rolling_vaccinations
-  FROM coviddeaths dea
-  JOIN covidvaccinations vac ON dea.location = vac.location AND dea.date = vac.date
-  WHERE dea.continent IS NOT NULL
-)
-SELECT *, (rolling_vaccinations/population)*100 AS rolling_vaccinations_percent
-FROM roll_vac;
-```
 
 ## 🛠 Techniques Used
 - Aggregate functions: SUM, MAX, CAST
