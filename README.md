@@ -1,7 +1,7 @@
 # Global COVID-19 Tracker: Cases, Death Toll, and Trends by Region
 
 ## 📌 Overview
-This 'Tableau' dashboard offers a comprehensive analysis of COVID-19 data, explored and structured in 'SQL'. The dashboard provides a detailed examination of global cases, mortality statistics, and infection trends over time. The 'SQL' analysis done before Tableau focuses on  infection rates, death percentages, vaccination trends, and country-specific insights. The queries demonstrate advanced SQL techniques like **window functions, CTEs, temporary tables, and views**.
+This *Tableau* dashboard offers a comprehensive analysis of COVID-19 data, explored and structured in *SQL*. The dashboard provides a detailed examination of global cases, mortality statistics, and infection trends over time. The *SQL* analysis done before Tableau focuses on  infection rates, death percentages, vaccination trends, and country-specific insights. The queries demonstrate advanced SQL techniques like **window functions, CTEs, temporary tables, and views**.
 
 ## Dashboad:
 
